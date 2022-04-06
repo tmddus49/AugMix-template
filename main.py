@@ -43,8 +43,8 @@ def test(model, test_data, batch_size):
     return acc
 
 def main():
-    torch.manual_seed(2020)
-    np.random.seed(2020)
+    torch.manual_seed(2022)
+    np.random.seed(2022)
     epochs = 100
     js_loss = True
     model_load = False
